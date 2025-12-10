@@ -138,3 +138,11 @@ CLEANUP_SUMMARY.md
 # Source files (if content extracted to notebooks)
 *.pptx
 **/course-content/*.pptx
+
+# Root-level Python scripts (development tools)
+create_course_content.py
+review_notebooks_comprehensive.py
+
+# Setup guides (if not student-facing, move to DOCS or remove)
+# Keep CROSS_PLATFORM_GUIDE.md if it's for students
+# GITHUB_SETUP.md - decide if student-facing
