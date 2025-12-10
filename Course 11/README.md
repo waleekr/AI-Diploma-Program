@@ -30,35 +30,37 @@ This course provides comprehensive training in deploying AI models to production
 
 ## Course Objectives | أهداف الدورة
 
-1. **Deployment Fundamentals**
-   - Model versioning
-   - Model serving
-   - API development
-   - Containerization
+Based on official plan (AIAT 125), students will:
 
-2. **Cloud Deployment**
-   - AWS, Azure, GCP
+1. **Introduction to Deploying AI Models**
+   - Deployment concepts
+   - Model serialization
+   - Deployment strategies
+   - Production considerations
+
+2. **Model Versioning and Serving**
+   - Model versioning systems
+   - Model serving frameworks
+   - A/B testing
+   - Rollback strategies
+
+3. **Cloud and Containerization**
+   - Cloud platforms (AWS, Azure, GCP)
+   - Docker containerization
+   - Kubernetes basics
    - Serverless deployment
-   - Auto-scaling
-   - Cost optimization
 
-3. **MLOps Practices**
-   - CI/CD for ML
+4. **APIs and Interfaces**
+   - REST API development
+   - GraphQL for ML
+   - API design best practices
+   - Interface development
+
+5. **Production Pipelines and Monitoring**
+   - MLOps pipelines
    - Model monitoring
-   - Data pipeline automation
-   - Experiment tracking
-
-4. **Production Best Practices**
-   - Model optimization
-   - Latency optimization
-   - Security and privacy
-   - Compliance
-
-5. **Real-World Applications**
-   - Building production APIs
-   - Batch processing systems
-   - Real-time inference
-   - Edge deployment
+   - Performance tracking
+   - Alerting systems
 
 ---
 
@@ -71,11 +73,11 @@ Course 11/
 ├── START_HERE.md
 ├── STUDENT_PROGRESS_CHECKLIST.md
 │
-├── unit1-deployment-basics/
-├── unit2-cloud-deployment/
-├── unit3-mlops/
-├── unit4-production-practices/
-├── unit5-applications/
+├── unit1-deployment-basics/        📚 Unit 1: Introduction to Deployment
+├── unit2-versioning-serving/        📚 Unit 2: Versioning & Serving
+├── unit3-cloud-containerization/    📚 Unit 3: Cloud & Containerization
+├── unit4-apis-interfaces/           📚 Unit 4: APIs & Interfaces
+├── unit5-pipelines-monitoring/      📚 Unit 5: Pipelines & Monitoring
 │
 ├── PROJECTS/
 ├── QUIZZES/

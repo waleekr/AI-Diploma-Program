@@ -30,31 +30,35 @@ This course provides comprehensive training in Generative AI, covering Generativ
 
 ## Course Objectives | أهداف الدورة
 
-1. **Generative Models Fundamentals**
-   - Understanding generative vs discriminative models
-   - Latent space representations
-   - Probability distributions
+Based on official plan (AIAT 124), students will:
 
-2. **Generative Adversarial Networks (GANs)**
-   - GAN architecture
-   - Training GANs
-   - Variants (DCGAN, StyleGAN)
-   - Applications
+1. **Introduction to Generative AI**
+   - Understand generative AI concepts
+   - Generative vs discriminative models
+   - Applications overview
 
-3. **Variational Autoencoders (VAEs)**
-   - VAE architecture
-   - Variational inference
-   - Applications
+2. **Generative Models for Deep Learning**
+   - GANs (Generative Adversarial Networks)
+   - VAEs (Variational Autoencoders)
+   - Architecture and training
 
-4. **Modern Generative Models**
-   - Diffusion models
-   - Transformer-based generators
-   - Large language models
+3. **Applications of Generative AI**
+   - Image generation
+   - Text generation
+   - Creative applications
+   - Real-world use cases
 
-5. **Ethical Considerations**
+4. **Ethical Considerations and Transparency**
    - Deepfakes and detection
-   - Responsible AI generation
    - Bias in generative models
+   - Responsible AI generation
+   - Transparency requirements
+
+5. **Real-World Applications and Challenges**
+   - Production deployment
+   - Quality control
+   - Evaluation metrics
+   - Industry applications
 
 ---
 
@@ -67,11 +71,11 @@ Course 10/
 ├── START_HERE.md
 ├── STUDENT_PROGRESS_CHECKLIST.md
 │
-├── unit1-generative-fundamentals/
-├── unit2-gans/
-├── unit3-vaes/
-├── unit4-modern-models/
-├── unit5-ethics/
+├── unit1-generative-fundamentals/   📚 Unit 1: Introduction to Generative AI
+├── unit2-gans/                      📚 Unit 2: Generative Models (GANs)
+├── unit3-vaes/                      📚 Unit 3: Generative Models (VAEs)
+├── unit4-applications/              📚 Unit 4: Applications
+├── unit5-ethics/                    📚 Unit 5: Ethics & Transparency
 │
 ├── PROJECTS/
 ├── QUIZZES/

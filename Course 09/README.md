@@ -30,27 +30,32 @@ This course provides comprehensive training in Reinforcement Learning (RL). Stud
 
 ## Course Objectives | أهداف الدورة
 
-1. **RL Fundamentals**
-   - Markov Decision Processes (MDPs)
-   - Value functions
-   - Policy optimization
-   - Exploration vs exploitation
+Based on official plan (AIAT 123), students will:
 
-2. **Classical RL Algorithms**
-   - Q-Learning
-   - SARSA
-   - Policy Gradient methods
-   - Actor-Critic methods
+1. **Introduction to Reinforcement Learning**
+   - Understand RL fundamentals
+   - MDPs and value functions
+   - Agent-environment interaction
+
+2. **Policy and Value-Based Methods**
+   - Policy-based approaches
+   - Value-based methods
+   - Q-learning and SARSA
 
 3. **Deep Reinforcement Learning**
    - Deep Q-Networks (DQN)
-   - Policy Gradient with neural networks
-   - Advanced DRL algorithms
+   - Actor-Critic methods
+   - Policy gradients with neural networks
 
-4. **Applications**
+4. **Exploration and Exploitation**
+   - Exploration strategies
+   - Exploitation techniques
+   - Balancing exploration vs exploitation
+
+5. **Applications and Practical Implementations**
    - Game playing agents
-   - Robotics
-   - Autonomous systems
+   - Real-world RL applications
+   - Practical implementation challenges
 
 ---
 
@@ -63,10 +68,11 @@ Course 09/
 ├── START_HERE.md
 ├── STUDENT_PROGRESS_CHECKLIST.md
 │
-├── unit1-rl-fundamentals/
-├── unit2-classical-algorithms/
-├── unit3-deep-rl/
-├── unit4-applications/
+├── unit1-rl-fundamentals/           📚 Unit 1: Introduction to RL
+├── unit2-policy-value/              📚 Unit 2: Policy & Value-Based Methods
+├── unit3-deep-rl/                   📚 Unit 3: Deep Reinforcement Learning
+├── unit4-exploration-exploitation/  📚 Unit 4: Exploration & Exploitation
+├── unit5-applications/              📚 Unit 5: Applications & Implementations
 │
 ├── PROJECTS/
 ├── QUIZZES/
