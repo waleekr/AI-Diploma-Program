@@ -85,3 +85,38 @@ $RECYCLE.BIN/
 *.temp
 *.bak
 *.backup
+
+# Internal development folders (not for students)
+**/META/
+**/SCRIPTS/
+
+# Internal development scripts
+*_fix*.py
+*convert*.py
+*setup*.py
+*create*.py
+*update*.py
+*rebuild*.py
+extract_*.py
+
+# Internal documentation files
+FINAL_STATUS.md
+*REVIEW*.md
+*NOTEBOOK_REVIEW*.md
+*COMPARISON*.md
+*STATUS*.md
+*SUMMARY*.md
+*VERIFICATION*.md
+*ARCHIVED*
+*IMPLEMENTATION_COMPLETE*
+
+# Development artifacts
+*.code-workspace
+**/META/*.json
+**/META/*.py
+
+# Keep important reference docs
+!STRUCTURE_ALIGNMENT_VERIFICATION.md
+!SEMESTER2_OFFICIAL_GOALS.md
+!SEMESTER2_ALIGNMENT_REPORT.md
+!CLEANUP_PLAN.md
