@@ -1,6 +1,11 @@
 # Exclude solutions directory
 SOLUTIONS_ALL/
 
+# Exclude internal development documentation (META folders)
+# These are for course developers, not students
+**/META/*.md
+**/META/*.py
+
 # Python
 __pycache__/
 *.pyc
