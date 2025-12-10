@@ -9,8 +9,10 @@ This example demonstrates:
 4. Timeline visualization
 """
 
-import matplotlib.pyplot as plt
-from datetime import datetime
+# Note: matplotlib and datetime imported but not used in this example
+# They would be used for timeline visualization in advanced versions
+# ملاحظة: تم استيراد matplotlib و datetime لكنهما غير مستخدمين في هذا المثال
+# سيتم استخدامهما لتصور الخط الزمني في النسخ المتقدمة
 
 print("=" * 60)
 print("Example 2: History of Artificial Intelligence")
